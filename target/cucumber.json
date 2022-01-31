@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-01-31T14:55:15.199Z",
+        "line": 3,
+        "name": "Search information by passing sentence \"capital of New Jersey\"",
+        "description": "",
+        "id": "searching-capital-of-new-jersey-in-google-search-engine;search-information-by-passing-sentence-\"capital-of-new-jersey\"",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is navigated to Google webpage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters search parameters in Search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clicks on Google Search Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "results are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Searching capital of New Jersey in Google search engine",
+    "description": "",
+    "id": "searching-capital-of-new-jersey-in-google-search-engine",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SearchCapital.feature",
+    "tags": []
+  }
+]
