@@ -41,7 +41,7 @@ public class SearchCapitalSteps extends CommonMethods {
 
         String expectedResult="Trenton";
 
-       Assert.assertEquals("text did not matched so i came here",actualResult,expectedResult);
+       Assert.assertEquals("text did not match so i came here",actualResult,expectedResult);
 
 
 
